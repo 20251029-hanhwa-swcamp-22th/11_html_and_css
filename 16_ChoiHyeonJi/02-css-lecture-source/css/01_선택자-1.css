@@ -27,7 +27,7 @@ p, pre {
 #id-title {
     color: red;
     /* font-style -> 글꼴 스타일 변경 속성 */
-    font-style: italic; /* 글꼴 = 기울임*/
+    font-style: italic; /* 글꼴 = 기울임 */
 }
 
 #test1 {
