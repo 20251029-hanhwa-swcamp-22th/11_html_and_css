@@ -1,0 +1,12 @@
+/* 4순위 : 클래스 선택자 */
+div { /* 우선순위 클래스 선택자가 더 높으니 test1으로하면 노랑 */
+    background-color: yellow; /* 먼저 yellow 적용됐는데 아래서slateblue로 적용 */
+    color: red; /* 겹치는 거 없으니까 그대로 적용 */
+}
+
+/* 5순위 : 태그 선택자 */
+div {
+    width: 300px;
+    height: 300px;
+    background-color: slateblue;
+}

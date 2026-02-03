@@ -1,0 +1,20 @@
+#default-bullet {
+    list-style-type: disc; /* 기본 값 */
+}
+
+#circle-bullet {
+    list-style-type: circle;
+}
+
+#square-bullet {
+    list-style-type: square;
+}
+
+#none-bullet {
+    list-style-type: none;
+}
+
+/* 불렛 이미지 변경 */
+#image-bullet {
+    list-style-image: url(../resources/img/gun.png);
+}
